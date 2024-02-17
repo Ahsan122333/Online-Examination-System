@@ -1,0 +1,108 @@
+
+  
+  .questionnaire {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .questionnaire h2 {
+    margin-bottom: 10px;
+  }
+  
+  .questionnaire label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .questionnaire input[type="text"],
+  .questionnaire input[type="datetime-local"] {
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .questionnaire button {
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: #2279b9;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .questionnaire ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .questionnaire li {
+    margin-bottom: 20px;
+  }
+  
+  .questionnaire li strong {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .questionnaire span {
+    margin-right: 5px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+
+
+.teacher-dashboard {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.teacher-dashboard h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.status-message {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.dashboard-link {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.dashboard-link:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,7 @@
+3 services backend aik frontend aik database
+front aur backend ki apni docker file hongi
+dcker compose me aik mongodb ki image external lagegy
+uska volume bhi banega
+docker compose ki file hoga root me jahan readme hai
+docker compose ke through teeno me communicate krwana
+

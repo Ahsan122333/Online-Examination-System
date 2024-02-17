@@ -1,0 +1,21 @@
+import express from "express";
+import adminrouter from "./adminRoutes.js";
+import authRoutes from "./authRoutes.js";
+import questionareRoutes from "./questionareRoutes.js";
+import questionRoutes from "./questionRoutes.js";
+import resultRoutes from "./resultRoutes.js";
+import studentAnswerRoutes from "./studentAnswerRoutes.js";
+import subjectRoutes from "./subjectRoutes.js";
+import userRoutes from "./userRoutes.js";
+
+const router = express.Router();
+router.use("/question", questionRoutes);
+router.use("/questionare", questionareRoutes);
+router.use("/result", resultRoutes);
+router.use("/auth", authRoutes);
+router.use("/admin", adminrouter);
+router.use("/questionare", questionareRoutes);
+router.use("/student-answer", studentAnswerRoutes);
+router.use("/subject", subjectRoutes);
+router.use("/user", userRoutes);
+export default router;

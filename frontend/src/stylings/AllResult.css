@@ -1,0 +1,47 @@
+.result-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .score-section {
+    margin-bottom: 20px;
+  }
+  
+  .score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1abc9c;
+  }
+  
+  .breakdown-section {
+    margin-top: 20px;
+  }
+  
+  .breakdown-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .breakdown-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .question-number {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .question-number1 {
+    font-weight: bold;
+    margin-right: 230px;
+    font-size: 20px;
+  }
+  .question-score {
+    color: #3498db;
+    font-size: 20px;
+  }
+  

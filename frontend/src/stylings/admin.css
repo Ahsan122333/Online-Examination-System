@@ -1,0 +1,83 @@
+
+.admin-dashboard-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-section {
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.teacher-list,
+.questionnaire-list {
+  list-style: none;
+  padding: 0;
+}
+
+.teacher-item,
+.questionnaire-item {
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teacher-details,
+.questionnaire-details {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.approve-button,
+.delete-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.results-link {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  border: 1px solid #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.results-link:hover {
+  background-color: #000;
+  color: #fff;
+}

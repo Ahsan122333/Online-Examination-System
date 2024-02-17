@@ -1,0 +1,48 @@
+.questionnaire-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .questionnaire-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .questionnaire-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subject {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .time {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .start-button {
+    background-color: #2279b9;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .start-button:hover {
+    background-color: #00578c;
+  }
+  
